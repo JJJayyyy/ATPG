@@ -1,0 +1,4 @@
+Algorithm: ATPG
+Circuit: c499
+Fault Coverage: 99.20%
+Time: 1.56 seconds

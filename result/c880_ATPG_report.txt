@@ -1,0 +1,4 @@
+Algorithm: ATPG
+Circuit: c880
+Fault Coverage: 100.00%
+Time: 1.38 seconds

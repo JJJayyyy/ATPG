@@ -1,0 +1,42 @@
+ATPG_DET ./golden/c1355.ckt DALG
+
+quit
+ATPG_DET ./golden/c17.ckt DALG
+ATPG_DET ./golden/c432.ckt DALG
+ATPG_DET ./golden/c499.ckt DALG
+ATPG_DET ./golden/c880.ckt DALG
+ATPG_DET ./golden/c1355.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/add2/add2.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/x3mult/x3mult.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/c1/c1.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/c2/c2.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/c3/c3.ckt DALG
+ATPG_DET ./SimpleCircuits_v0/c4/c4.ckt DALG
+
+ATPG_DET ./golden/c17.ckt PODEM
+ATPG_DET ./golden/c432.ckt PODEM
+ATPG_DET ./golden/c499.ckt PODEM
+ATPG_DET ./golden/c880.ckt PODEM
+ATPG_DET ./golden/c1355.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/add2/add2.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/x3mult/x3mult.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/c1/c1.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/c2/c2.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/c3/c3.ckt PODEM
+ATPG_DET ./SimpleCircuits_v0/c4/c4.ckt PODEM
+
+ATPG ./golden/c17.ckt
+ATPG ./golden/c432.ckt
+ATPG ./golden/c499.ckt
+ATPG ./golden/c880.ckt
+ATPG ./golden/c1355.ckt
+ATPG ./SimpleCircuits_v0/add2/add2.ckt
+ATPG ./SimpleCircuits_v0/x3mult/x3mult.ckt
+ATPG ./SimpleCircuits_v0/c1/c1.ckt
+ATPG ./SimpleCircuits_v0/c2/c2.ckt 
+ATPG ./SimpleCircuits_v0/c3/c3.ckt 
+ATPG ./SimpleCircuits_v0/c4/c4.ckt 
+
+quit
+ATPG_DET ./golden/c17.ckt DALG
+ATPG ./golden/x3mult.ckt

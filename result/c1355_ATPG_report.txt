@@ -1,0 +1,4 @@
+Algorithm: ATPG
+Circuit: c1355
+Fault Coverage: 99.70%
+Time: 13.67 seconds
